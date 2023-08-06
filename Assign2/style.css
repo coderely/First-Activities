@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: rgb(52,8,41);
+    background: linear-gradient(220deg, rgba(52,8,41,1) 0%, #964ca8,
+    rgba(232,89,207,1) 24%, rgba(191,18,164,1) 56%, 
+    rgba(150,76,168,1) 92%);
+    margin-top: 5rem;
+    color: #1f1f1e;
+    height: 100vh;
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+form {
+    border-radius: 0.4rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.4rem;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    max-width: 30rem;
+    margin-bottom: 3rem;
+    
+}
+.form-con{
+height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.4rem;
+    color: #ca23bc;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.3rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 0.3rem;
+}
+input[type="text"], 
+input[type="password"],
+input[type="email"]{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    border-radius: 0;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    border-color:#ca23bc;
+}
+input[type="submit"] {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ca23bc;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+}
+input[type="submit"]:hover {
+    background-color: #b10ca3;
+}
+br {
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    max-width: 100%;
+}
+.box{
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.box2, .box3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box3{
+    margin-top: 8rem;
+    height: 100vh;
+    line-height: 2rem;
+}
+.box3 label{
+    display: inline-block;
+}

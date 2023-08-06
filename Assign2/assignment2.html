@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ass2.css">
+    <title>Html Forms Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!---Forms------>
+  <div class="container">
+    <div class="box">
+        <form action="#" method="POST">
+            <h1>Contact Us</h1>
+
+            <label for="name">
+                Name:
+                <input type="text" placeholder="e.g. Juan Dela Cruz"/>
+            </label>
+            <label for="email"> 
+                Email:
+                <input type="email" placeholder="e.g. juan@gmail.com" />
+            </label>
+            <label for="message">
+                Message:
+                <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+            </label>
+
+            <input value="Submit" type="submit">
+    </div>
+
+
+        </form>
+        <br>
+    <div class="box2">
+        <form action="#" method="POST">
+            <h1>Login form: </h1>
+
+            <label for="username">
+                Username:
+                <input type="text">
+            </label>
+            <label for="password">
+                Password:
+                <input type="password">
+            </label>
+            <input value="Login" type="submit">
+
+        </form>
+        <br>
+    </div>    
+    <div class="box3">
+        <form action="#" method="POST">
+            <h1>Survey</h1>
+
+            <label for="name">
+                Name:
+                <input type="text">
+            </label>
+            <br>
+            <label for="age">
+                Age:
+                <input type="number">
+            </label>
+            <br>
+            <label for="gender">Gender: </label>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+            
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label>
+            <br>
+            <label for="language">Which programming language do you know?</label>
+            <br>
+            <label>
+                <input type="checkbox" name="language" value="javaScript">
+                JavaScript
+            </label>
+            
+            <label>
+                <input type="checkbox" name="language" value="Python">
+                Python
+            </label>
+            
+            <label>
+                <input type="checkbox" name="language" value="Java">
+                Java
+            </label>
+            
+            <label>
+                <input type="checkbox" name="language" value="C#">
+                C#
+            </label>
+            
+            <label>
+                <input type="checkbox" name="language" value="Swift">
+                Swift
+            </label>
+            <br>
+            <label>
+                Comments:
+                <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+            </label>
+            <br>
+            <input type="submit">
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
